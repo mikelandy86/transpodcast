@@ -6,6 +6,7 @@
 
 body{
 background-color: rgb(50, 50, 50);
+height: 6000px;
 }
 
 .hero-image {
@@ -76,6 +77,66 @@ background-color: rgb(50, 50, 50);
   background-color: #ff3b4e; /* Adjust the hover background color as needed */
   box-shadow: inset 0 0 0 2px #ff3b4e;
 }
+
+/* src/components/Header.css */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px; /* Adjust the height as needed */
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.header.scrolled {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+/* src/components/Header.css */
+.header-logo {
+  opacity: 0;
+  font-size: calc(1.3rem + 0.390625vw);
+  background-image: linear-gradient(45deg, #fea4a4, #ff3e8e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent; /* Fallback for older browsers */
+  transition: opacity 0.3s ease;
+}
+
+.header.scrolled .header-logo {
+  font-size: calc(1.3rem + 0.390625vw); /* Adjust the font size for the scrolled header */
+}
+
+.header-nav {
+  display: flex;
+  margin: 0 50px;
+}
+
+.header-link {
+  color: transparent;
+  text-decoration: none;
+  padding-right: 20px; /* Add padding instead of margin */
+  transition: color 0.3s ease;
+  font-size: calc(1rem + 0.390625vw);
+}
+
+.header-link:hover {
+  text-decoration: underline;
+}
+
+.header.scrolled .header-logo,
+.header.scrolled .header-link {
+  color: white;
+  opacity: 1;
+}
+
 
 @media (max-width: 768px) {
   .hero-text {
