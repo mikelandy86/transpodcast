@@ -10,7 +10,7 @@ background-color: rgb(50, 50, 50);
 
 .hero-image {
   height: 100vh; /* Adjust the height as needed */
-  background-image: url('./public/IMG-20230408-WA0009.jpg');
+  background-image: url('/IMG-20230408-WA0009.jpg');
 
   background-position: center;
   background-repeat: no-repeat;
