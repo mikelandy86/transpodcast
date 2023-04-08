@@ -38,11 +38,11 @@ height: 6000px;
   transform: translateY(-50%);
   color: white;
   z-index: 1;
-  max-width: 60vw;
+  max-width: 46vw;
 }
 
 .hero-text h1 {
-  font-size: calc(160px + 0.390625vw);
+  font-size: calc(130px + 0.390625vw);
   background-image: linear-gradient(45deg, #fea4a4, #ff3e8e);
   -webkit-background-clip: text;
   background-clip: text;
@@ -53,7 +53,7 @@ height: 6000px;
 
 .hero-text p {
   letter-spacing: .09rem;
-  font-size: calc(30px + 0.390625vw);
+  font-size: calc(20px + 0.390625vw);
 
 }
 .hero-text button {
