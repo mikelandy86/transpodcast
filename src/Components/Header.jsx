@@ -24,7 +24,7 @@ const Header = () => {
       <h1 className="header-logo">SEX SOM TRANS</h1>
       <nav className="header-nav">
         <a href="#listen" className="header-link">Lyssna nu!</a>
-        <a href="tel:07-7022520" className="header-link">07-7022520</a>
+        <a href="tel:07-7022520" className="header-link">08-702 25 25</a>
       </nav>
     </header>
   );
