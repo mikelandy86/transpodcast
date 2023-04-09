@@ -54,11 +54,11 @@ height: 6000px;
 
 .hero-text h1 {
 font-weight: 200;
-  line-height: 77%;
+  line-height: 75%;
   /* Add the below two rules */
   overflow: hidden;
   padding: 20px 0 5px;
-  letter-spacing:  .1rem;
+  letter-spacing:  -.02rem;
   font-size: calc(130px + 0.390625vw);
   background-image: linear-gradient(45deg, #ff3e8e, #fea4a4);
   -webkit-background-clip: text;
@@ -176,7 +176,7 @@ font-weight: 200;
     text-align: center;
     /* font-family: 'Fellix'; */
     letter-spacing: .09rem;
-    font-size: calc(20px + 0.390625vw);
+    font-size: calc(17px + 0.390625vw);
   
   }
   .hero-text p {
