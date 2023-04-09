@@ -21,7 +21,7 @@ height: 6000px;
 }
 
 .hero-image {
-  height: 100vh; /* Adjust the height as needed */
+  height: 70vh; /* Adjust the height as needed */
   background-image: url('/IMG-20230408-WA0009.jpg');
 
   background-position: center;
@@ -82,6 +82,7 @@ font-weight: 200;
 
 }
 .hero-text button {
+  font-family: 'Fellix';
   letter-spacing: .1rem;
   margin-top: 40px;
   color: #fff !important;
@@ -90,8 +91,8 @@ font-weight: 200;
   border: none;
   border-radius: 50px; /* Adjust the border-radius to achieve the desired rounded corners */
   cursor: pointer;
-  font-size: 1.4rem; /* Adjust the font size as needed */
-  padding: 13px 50px; /* Adjust the padding as needed */
+  font-size: 1rem; /* Adjust the font size as needed */
+  padding: 20px 30px; /* Adjust the padding as needed */
   text-align: center;
   text-decoration: none;
   display: inline-block;
