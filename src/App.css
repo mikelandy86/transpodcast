@@ -4,6 +4,17 @@
   font-family: 'Bebas Neue', cursive;
 }
 
+@font-face {
+  font-family: 'Fellix';
+  src: local('Fellix Regular'), local('Fellix-Regular'),
+      url('./src/fonts/Fellix-Regular/Fellix-Regular.woff2') format('woff2'),
+      url('./src/fonts/Fellix-Regular/Fellix-Regular.woff') format('woff'),
+      url('./src/fonts/Fellix-Regular/Fellix-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 body{
 background-color: rgb(50, 50, 50);
 height: 6000px;
@@ -38,20 +49,33 @@ height: 6000px;
   transform: translateY(-50%);
   color: white;
   z-index: 1;
-  max-width: 46vw;
+  max-width: 70%;
 }
 
 .hero-text h1 {
+font-weight: 200;
+  line-height: 77%;
+  /* Add the below two rules */
+  overflow: hidden;
+  padding: 20px 0 5px;
+  letter-spacing:  .1rem;
   font-size: calc(130px + 0.390625vw);
-  background-image: linear-gradient(45deg, #fea4a4, #ff3e8e);
+  background-image: linear-gradient(45deg, #ff3e8e, #fea4a4);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-fill-color: transparent; /* Fallback for older browsers */
 
 }
+.hero-text h2 {
+  margin-bottom: 30px;
+  /* font-family: 'Fellix'; */
+  letter-spacing: .09rem;
+  font-size: calc(20px + 0.390625vw);
 
+}
 .hero-text p {
+  font-family: 'Fellix';
   letter-spacing: .09rem;
   font-size: calc(20px + 0.390625vw);
 
@@ -144,11 +168,19 @@ height: 6000px;
   }
   .hero-text h1 {
     font-size: calc(100px + 0.390625vw);
+    text-align: center;
   }
+  .hero-text h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    /* font-family: 'Fellix'; */
+    letter-spacing: .09rem;
+    font-size: calc(20px + 0.390625vw);
   
+  }
   .hero-text p {
     letter-spacing: .04rem;
-    font-size: calc(25px + 0.390625vw);
+    font-size: calc(19px + 0.390625vw);
   }
 }
 @media (max-width: 368px) {

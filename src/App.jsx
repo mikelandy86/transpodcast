@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Hero from './Components/Hero.jsx'
 import Header from './Components/Header.jsx'
-
+import '/src/fonts/Fellix-Regular/Fellix-Regular.ttf';
 
 function App() {
   return (
