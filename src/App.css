@@ -39,7 +39,7 @@ height: 6000px;
 }
 
 .hero-text {
-  margin: 0 3rem 3rem 3rem;
+  margin: 0 1rem 1rem 1rem;
   bottom: 0;
   /* margin: 3rem; */
   text-align: left;
@@ -142,9 +142,23 @@ font-weight: 200;
 }
 
 .header-nav {
-  display: flex;
-  margin: 0 50px;
+  opacity: 0;
+  background-color: black;
+  height: 300px;
+  top: 0;
+  /* top: 0; */
+  left: 0;
+  /* width: 200px; */
+  position: fixed;
+  /* display: flex; */
+  /* margin: 0 50px; */
+  bottom: 0;
+  /* height: 100px; */
+  margin-top: 76px;
+  /* bottom: 0; */
+  /* width: 100%; */
 }
+
 
 .header-link {
   color: transparent;
@@ -159,7 +173,7 @@ font-weight: 200;
 }
 
 .header.scrolled .header-logo,
-.header.scrolled .header-link, header.scrolled .hamburger-menu  {
+.header.scrolled .header-link, header.scrolled .hamburger-menu,header.scrolled .header-nav  {
   color: white;
   opacity: 1;
 }

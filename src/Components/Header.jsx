@@ -27,6 +27,9 @@ const Header = () => {
   };
 
   return (
+    <div>
+
+   
     <header className="header" ref={headerRef}>
       <h1 className="header-logo">SEX SOM TRANS</h1>
       <div className={`hamburger-menu${menuOpen ? ' open' : ''}`} onClick={toggleMenu}>
@@ -41,6 +44,7 @@ const Header = () => {
         </nav>
       )}
     </header>
+    </div>
   );
 };
 
