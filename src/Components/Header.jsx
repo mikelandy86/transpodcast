@@ -28,7 +28,7 @@ const Header = () => {
 
   return (
     <header className="header" ref={headerRef}>
-      <h1 className="header-logo">Your Title</h1>
+      <h1 className="header-logo">SEX SOM TRANS</h1>
       <div className={`hamburger-menu${menuOpen ? ' open' : ''}`} onClick={toggleMenu}>
         <div className="hamburger-line"></div>
         <div className="hamburger-line"></div>

@@ -88,7 +88,7 @@ font-weight: 200;
   margin-top: 40px;
   color: #fff !important;
   background-color: #ff3b4e; 
-  box-shadow: inset 0 0 0 2px #ff5b65;
+  /* box-shadow: 8 0 0 0 2px #ffffff; */
   border: none;
   border-radius: 50px; /* Adjust the border-radius to achieve the desired rounded corners */
   cursor: pointer;
@@ -159,7 +159,7 @@ font-weight: 200;
 }
 
 .header.scrolled .header-logo,
-.header.scrolled .header-link {
+.header.scrolled .header-link, header.scrolled .hamburger-menu  {
   color: white;
   opacity: 1;
 }
