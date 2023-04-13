@@ -4,13 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Hero from './Components/Hero.jsx'
 import Header from './Components/Header.jsx'
-// import '/src/fonts/Fellix-Regular/Fellix-Regular.ttf';
+import Info from './Components/Info.jsx'
 
 function App() {
   return (
     <div className="App">
        <Header/>
    <Hero/>
+   <Info/>
     </div>
   )
 }
