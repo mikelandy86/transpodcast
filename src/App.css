@@ -193,7 +193,7 @@ font-weight: 200;
   transition: all 0.3s ease;
 }
 .hamburger-menu.open .hamburger-line:nth-child(1) {
-  transform: translateY(7px) rotate(45deg);
+  transform: translateY(10px) rotate(45deg);
 }
 
 .hamburger-menu.open .hamburger-line:nth-child(2) {
