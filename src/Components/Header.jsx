@@ -12,6 +12,7 @@ const Header = () => {
         headerRef.current.classList.add('scrolled');
       } else {
         headerRef.current.classList.remove('scrolled');
+        setMenuOpen(false);
       }
     };
 
