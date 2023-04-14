@@ -18,8 +18,9 @@ height: 6000px;
 }
 
 .hero-image {
+
   height: 100vh; /* Adjust the height as needed */
-  background-image: url('/IMG-20230408-WA0009.jpg');
+  /* background-image: url('/IMG-20230408-WA0009.jpg'); */
 
   background-position: center;
   background-repeat: no-repeat;
@@ -38,6 +39,7 @@ height: 6000px;
 }
 
 .hero-text {
+
   margin: 0 1rem 2rem 1rem;
   bottom: 0;
   /* margin: 3rem; */
@@ -92,7 +94,7 @@ font-weight: 200;
   border-radius: 50px; /* Adjust the border-radius to achieve the desired rounded corners */
   cursor: pointer;
   font-size: 1.1rem; /* Adjust the font size as needed */
-  padding: 20px 30px; /* Adjust the padding as needed */
+  padding: 18px 30px; /* Adjust the padding as needed */
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -105,11 +107,11 @@ font-weight: 200;
 }
 .info-section{
   background: #111;
-  padding: 2rem 1rem 1rem 1rem;
+  padding: 6rem 1rem 1rem 1rem;
 
 }
 .info-container{
-  border-bottom: 1px solid #222;
+  /* border-bottom: 1px solid #222; */
   margin-bottom: 40px;
 }
 .info-container p, .info-container h2 {
@@ -236,6 +238,7 @@ font-weight: 200;
     height: 80vh; 
   }
   .hero-text {
+    text-align: center;
     max-width: 100%;
   }
   .hero-text h1 {
