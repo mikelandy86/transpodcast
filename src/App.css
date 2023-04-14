@@ -21,7 +21,7 @@ height: 6000px;
 
   height: 100vh; /* Adjust the height as needed */
   /* background-image: url('/IMG-20230408-WA0009.jpg'); */
-
+  background: black;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,6 +39,7 @@ height: 6000px;
 }
 
 .hero-text {
+  
   margin: 0 2.5rem 2rem 2.5rem;
   bottom: 0;
   text-align: left;
@@ -130,6 +131,23 @@ font-weight: 200;
 .info-container hr{
   margin-bottom: 40px;
 }
+
+.podstore-icon-container{
+
+    border-bottom: 1px solid #222;
+    border-top: 1px solid #222;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+
+}
+.podstore-icon-container img{
+  background-color: black;
+  width: 135px;
+  padding: 0 1rem;
+}
+
 /* src/components/Header.css */
 .header {
   position: fixed;
