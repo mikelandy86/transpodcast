@@ -14,14 +14,14 @@
 
 body{
 background-color: rgb(50, 50, 50);
-height: 6000px;
+/* height: 6000px; */
 }
 
 .hero-image {
 
   height: 100vh; /* Adjust the height as needed */
   /* background-image: url('/IMG-20230408-WA0009.jpg'); */
-  background: black;
+  /* background: black; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -131,23 +131,49 @@ font-weight: 200;
 .info-container hr{
   margin-bottom: 40px;
 }
-
+.footer{
+  /* margin: 1rem; */
+  background-color: black;
+    /* background-color: rgb(50, 50, 50); */
+  padding: 3rem 1;
+}
+.footer-container{
+  padding: 2rem;
+}
 .podstore-icon-container{
-
     border-bottom: 1px solid #222;
     border-top: 1px solid #222;
   padding: 2rem 1rem;
   display: flex;
   justify-content: center;
-  background-color: black;
+  margin-bottom: 3rem;
+
 
 }
 .podstore-icon-container img{
-  background-color: black;
+
   width: 135px;
   padding: 0 1rem;
 }
 
+.bottom-container{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.bottom-container h3{
+color: white;
+
+font-size: 15px;
+}
+.podstore-icon-container a{
+  filter: grayscale(1);
+  }
+.socialmedia-container a{
+margin: 0 .5rem;
+}
 /* src/components/Header.css */
 .header {
   position: fixed;
