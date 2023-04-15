@@ -58,7 +58,7 @@ font-weight: 200;
   padding: 20px 0 5px;
   letter-spacing:  -.02rem;
   font-size: calc(130px + 0.390625vw);
-  background-image: linear-gradient(45deg, #ff3e8e, #fea4a4);
+  background-image: linear-gradient(  #fea4a4,#ff3e8e);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;

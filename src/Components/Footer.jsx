@@ -18,8 +18,8 @@ export default function Footer() {
   <div className='socialmedia-container'>
 
 
-  <a><img src='facebook.svg'></img></a>
-  <a><img src='instagram.svg'></img></a>
+  {/* <a><img src='facebook.svg'></img></a> */}
+  <a href="https://www.instagram.com/sexsomtrans"><img src='instagram.svg'></img></a>
   </div>
   <h3>PodWorld of Mandy Rich</h3>
 </div>

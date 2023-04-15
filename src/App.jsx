@@ -11,7 +11,7 @@ import Footer from './Components/Footer.jsx'
 function App() {
   return (
     <div className="App">
-       <Header/>
+       {/* <Header/> */}
    <Hero/>
    <Info/>
    <Footer/>
