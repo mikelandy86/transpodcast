@@ -341,5 +341,18 @@ width: 50%;
     .header-nav {
       display: flex;
     }
+
+  
+}}
+@media (max-height: 400px) {
+  .hero-text {
+    top:0;
+    max-width: 100%;
+  }
+  .hero-text p{
+    font-size: calc(15px + 0.390625vw);
+  }
+  .hero-text h1{
+    font-size: calc(100px + 0.390625vw);
   }
 }
