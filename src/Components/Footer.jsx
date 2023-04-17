@@ -7,7 +7,7 @@ export default function Footer() {
 
        
 <div className="podstore-icon-container">
-  <a>
+  <a href='https://podcasts.apple.com/se/podcast/sex-som-trans/id1682796785'>
   <img src='apple-appstore.svg'></img>
   </a>
   <a>
@@ -21,7 +21,10 @@ export default function Footer() {
   {/* <a><img src='facebook.svg'></img></a> */}
   <a href="https://www.instagram.com/sexsomtrans"><img src='instagram.svg'></img></a>
   </div>
-  <h3>PodWorld of Mandy Rich</h3>
+  <span>
+  <h3>A PODCAST OF &nbsp;</h3>
+  <h2>MANDY RICH</h2>
+  </span>
 </div>
 </div>
         </div>

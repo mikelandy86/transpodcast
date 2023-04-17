@@ -14,9 +14,8 @@ export default function Info() {
 
   </div>
   <div className='info-container'>
-  <h2>Bli en poddinsider</h2>
-<p>Anslut dig till vår växande poddfamilj och få en insiders titt på spännande ämnen, gäster och bakom kulisserna-insikter.</p>
-
+  <h2>Kontakt</h2>
+  <p>Har du frågor, funderingar eller vill kommma med förslag på gäster? Hör av dig till mig på <a href="mailto:sexsomtrans@gmail.com?Subject=&Body=" title="Hello" >sexsomtrans@gmail.com</a></p>
   </div>
         </div>
       )
