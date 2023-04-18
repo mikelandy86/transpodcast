@@ -13,11 +13,11 @@
 }
 
 body{
-background-color: rgb(50, 50, 50);
-
-/* height: 6000px; */
+background-color: #000000;
 }
-
+.hero-container{
+  background-color: rgb(50, 50, 50);
+}
 .hero-image {
 
   height: 100vh; /* Adjust the height as needed */
