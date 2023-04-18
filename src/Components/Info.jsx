@@ -1,13 +1,32 @@
 import React from 'react'
 import { Fade } from "react-awesome-reveal";
+import Reveal from "react-awesome-reveal";
+import { keyframes } from "@emotion/react";
 
 export default function Info() {
+
+  const customAnimation = keyframes`
+  from {
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+`;
+
+// function CustomAnimation({ children }) {
+//   return <Reveal keyframes={customAnimation}>{children}</Reveal>;
+// }
+
+
+
     return (
       <div className="info-section">
-          <Fade triggerOnce duration={2500} direction="up">
+          <Reveal keyframes={customAnimation} duration={2000}>
           <div>
-
-
          
 <div className='info-container'>
   <h2>Mer om podden</h2>
@@ -26,7 +45,7 @@ export default function Info() {
   <p>Har du frågor, funderingar eller vill komma med förslag på gäster? Hör av dig till mig på <a href="mailto:sexsomtrans@gmail.com?Subject=&Body=" title="Hello" >sexsomtrans@gmail.com</a></p>
   </div>
   </div>
-  </Fade>
+  </Reveal>
         </div>
       )
 }
