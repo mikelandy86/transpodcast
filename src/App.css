@@ -81,6 +81,7 @@ font-weight: 200;
 }
 .hero-text button {
   /* font-family: 'Fellix'; */
+  font-weight: 700;
   letter-spacing: .1rem;
   margin-top: 40px;
   color: #fff !important;
@@ -89,7 +90,7 @@ font-weight: 200;
   border: none;
   border-radius: 50px; /* Adjust the border-radius to achieve the desired rounded corners */
   cursor: pointer;
-  font-size: 1.1rem; /* Adjust the font size as needed */
+  font-size: 1.2rem; /* Adjust the font size as needed */
   padding: 18px 30px; /* Adjust the padding as needed */
   text-align: center;
   text-decoration: none;
@@ -309,7 +310,7 @@ width: 50%;
   }
   .hero-text p {
     letter-spacing: .04rem;
-    font-size: calc(16px + 0.390625vw);
+    font-size: calc(14px + 0.390625vw);
   }
   
 }
