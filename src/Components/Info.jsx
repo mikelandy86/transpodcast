@@ -8,20 +8,16 @@ export default function Info() {
   const customAnimation = keyframes`
   from {
     opacity: 0;
+    display: none;
     transform: translate3d(0, 50px, 0);
   }
 
   to {
     opacity: 1;
+    display:block;
     transform: translate3d(0, 0, 0);
   }
 `;
-
-// function CustomAnimation({ children }) {
-//   return <Reveal keyframes={customAnimation}>{children}</Reveal>;
-// }
-
-
 
     return (
       <div className="info-section">
@@ -29,19 +25,19 @@ export default function Info() {
           <div>
          
 <div className='info-container'>
-  <h2>Mer om podden</h2>
+  <h2>Mer om podden:</h2>
   <p>Sex som trans är en podcast som utforskar sex och sexualitet från ett transperspektiv. Mandy Rich delar med sig av sina personliga erfarenheter och bjuder in gäster för att diskutera mer djupgående. Podden syftar till att öppna upp en dialog kring sex och relationer, och ge lyssnarna mer kunskap.</p>
 
   </div>
   <div className='info-container'>
-  <h2>Vill höra vad ni tycker</h2>
+  <h2>Vill höra vad ni tycker:</h2>
   <p>Har upprättat en röstbrevlåda för er lyssnare som vill lämna synpunkter, tankar eller egna erfarenheter som sen kommer att spelas upp efter varje avsnitt
 
 *08 - 702 25 25*</p>
 
   </div>
   <div className='info-container'>
-  <h2>Kontakt</h2>
+  <h2>Kontakt:</h2>
   <p>Har du frågor, funderingar eller vill komma med förslag på gäster? Hör av dig till mig på <a href="mailto:sexsomtrans@gmail.com?Subject=&Body=" title="Hello" >sexsomtrans@gmail.com</a></p>
   </div>
   </div>
