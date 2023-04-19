@@ -23,7 +23,7 @@ background-color: #000000;
 }
 .hero-image {
 
-  height: 120vh; /* Adjust the height as needed */
+  height: 100vh; /* Adjust the height as needed */
   /* background-image: url('/IMG-20230408-WA0009.jpg'); */
   /* background: black; */
   background-position: center;
@@ -409,4 +409,6 @@ width: 50%;
   .hero-text h1{
     font-size: calc(100px + 0.390625vw);
   }
+  .hero-image {
+    height: 125vh; }
 }
