@@ -403,6 +403,7 @@ width: 50%;
     max-width: 100%;
   }
   .hero-text p{
+    margin: 0 2rem;
     font-size: calc(15px + 0.390625vw);
   }
   .hero-text h1{
