@@ -20,7 +20,7 @@ export default function Info() {
     return (
       <div className="info-section">
           {/* <Reveal keyframes={customAnimation} duration={2000}> */}
-          <div>
+          <div className='flexbox-container'> 
          
 <div className='info-container'>
   <h2>Mer om podden:</h2>
@@ -29,7 +29,7 @@ export default function Info() {
   </div>
   <div className='info-container'>
   <h2>Vill höra vad ni tycker:</h2>
-  <p>Har upprättat en röstbrevlåda för er lyssnare som vill lämna synpunkter, tankar eller egna erfarenheter som sen kommer att spelas upp efter varje avsnitt. <a href="tel:087022525">08 - 702 25 25</a>
+  <p>Har upprättat en röstbrevlåda för er lyssnare som vill lämna synpunkter, tankar eller egna erfarenheter. <a href="tel:087022525">08 - 702 25 25</a>
 </p>
 
   </div>

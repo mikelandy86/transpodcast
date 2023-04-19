@@ -10,7 +10,7 @@ export default function Footer() {
   <a href='https://podcasts.apple.com/se/podcast/sex-som-trans/id1682796785'>
   <img src='apple-appstore.svg'></img>
   </a>
-  <a>
+  <a href='https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5hY2FzdC5jb20vcHVibGljL3Nob3dzLzYzNjIzYTliNmRiMjM1MDAxMjFlNmVjOA?ep=14'>
   <img src='google-playstore.svg'></img>
   </a>
 </div>
